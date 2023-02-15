@@ -112,6 +112,7 @@ main {
 .nav__list {
   display: flex;
   column-gap: 4rem;
+  margin-left: 30px;
 }
 
 .nav__link {
@@ -152,6 +153,7 @@ main {
     display: none;
     justify-content: center;
     transition: var(--transition);
+    
   }
 
   .nav__menu--open {
