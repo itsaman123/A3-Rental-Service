@@ -539,8 +539,10 @@ h2 {
   height: 100px;
 }
 
+
+
 .testmonials {
-  margin-top: 100px;
+  margin-top: 130px;
 }
 
 .wrapper {
@@ -548,17 +550,22 @@ h2 {
   justify-content: center;
   flex-wrap: wrap;
 }
+.card h3{
+  font-size: 23px;
+  margin-bottom: 13px;
+}
 .card {
   max-width: 300px;
   min-height: 250px;
-  background: #02b875;
+  background: #bec6c3;
   padding: 30px;
   border-radius: 3px;
   box-sizing: border-box;
-  color: #fff;
+  color: #000000;
   margin: 20px;
   box-shadow: rgba(20, 20, 20, 0.55) 0px 30px 60px -12px,
     rgb(0 0 0 / 30%) 0px 18px 36px -18px;
+    margin-top:70px;
 }
 .card:nth-child(2) {
   background: #4181ee;
@@ -589,6 +596,7 @@ h2 {
   transition: all 0.5s;
   cursor: pointer;
   letter-spacing: 1.2px;
+  margin-bottom: 0;
 }
 .card-btn:hover {
   color: #02b875;
@@ -603,8 +611,22 @@ h2 {
   background: #fff;
 }
 
-.footer {
+
+.testmonials .h1{
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 1000;
+  /* margin-top: 70px; */
+  /* background-color: red; */
 }
+
+@media (min-width:668px) {
+  .testmonials h1{
+    text-align: center;
+  }
+}
+
+
 .footer p {
   background-color: #455ac3;
   text-align: center;
